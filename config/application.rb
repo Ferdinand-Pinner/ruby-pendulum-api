@@ -20,5 +20,8 @@ module RubyPendulumApi
 
     # Disable autoloading for assets and tasks
     config.autoload_lib(ignore: %w[assets tasks])
+
+    config.assets.enabled = false
+    config.assets.initialize_on_precompile = false
   end
 end
