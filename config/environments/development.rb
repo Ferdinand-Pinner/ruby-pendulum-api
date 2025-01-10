@@ -11,7 +11,7 @@ Rails.application.configure do
   config.consider_all_requests_local = true
 
   # Store uploaded files on the local file system.
-  config.active_storage.service = :local
+  # config.active_storage.service = :local
 
   # Use an inline queue adapter for ActiveJob in development.
   config.active_job.queue_adapter = :inline
@@ -43,10 +43,6 @@ Rails.application.configure do
 
   # Allow requests from all hosts in development.
   config.hosts.clear
-
-  # Disable asset compression and caching in development.
-  config.assets.debug = true
-  config.assets.quiet = true
 
   # Enable locale fallbacks for I18n (useful for missing translations).
   config.i18n.fallbacks = true

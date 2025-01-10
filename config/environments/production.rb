@@ -29,7 +29,7 @@ Rails.application.configure do
   config.active_job.queue_adapter = :inline
 
   # Active Storage is disabled.
-  config.active_storage.service = :null
+  # config.active_storage.service = :null
 
   # Silence deprecations.
   config.active_support.report_deprecations = false
