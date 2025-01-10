@@ -2,7 +2,7 @@ services:
   - type: web
     name: ruby-pendulum-api
     runtime: ruby
-    region: oregon
+    region: ohio
     buildCommand: bundle install
     startCommand: rails server -b 0.0.0.0 -p 3000
     plan: free
